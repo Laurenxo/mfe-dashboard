@@ -3,7 +3,7 @@ name: container-dev
 on:
   push:
     branches: 
-      - master
+      - main
     paths:
       - 'packages/container/*'
 
