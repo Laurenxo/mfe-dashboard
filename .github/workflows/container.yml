@@ -3,9 +3,9 @@ name: container-dev
 on:
   push:
     branches: 
-      - main
+      - master
     paths:
-      - 'packages/container/*'
+      - 'packages/container/**'
 
 defaults:
   run:
