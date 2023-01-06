@@ -6,7 +6,7 @@ export default () => {
 
   useEffect(() => {
     mount(componentRef.current);
-  }, []);
+  });
 
   return <div ref={componentRef} />
 }
