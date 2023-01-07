@@ -1,11 +1,11 @@
 import React from "react";
 import MarketingApp from "./component/MarketingApp";
+import Header from "./component/Header";
 
 export default () => {
 
   return <div>
-    <h1>Hi there!</h1>
-    <hr />
+    <Header />
     <MarketingApp />
   </div>
 };
